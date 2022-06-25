@@ -1,6 +1,6 @@
 {
   "name": "react-native-uikit-example",
-  "description": "Example app for react-native-uikit",
+  "description": "Example app for react-native-uikits",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react-native-uikits": "file:.."
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

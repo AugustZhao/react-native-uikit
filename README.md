@@ -1,17 +1,17 @@
-# react-native-uikit
+# react-native-uikits
 
 uikit
 
 ## Installation
 
 ```sh
-npm install react-native-uikit
+npm install react-native-uikits
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-uikit";
+import { multiply } from 'react-native-uikits';
 
 // ...
 

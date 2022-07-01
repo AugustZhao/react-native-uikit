@@ -3,9 +3,13 @@ function multiply(a: number, b: number): Promise<number> {
 }
 
 import { sendEvent, useRegisterEvent } from './eventBus';
+import useAppState from './hooks/useAppState';
+import useKeyboardHeight from './hooks/useKeyboardHeight';
 
 export default {
+  multiply,
   sendEvent,
   useRegisterEvent,
-  multiply,
+  useAppState,
+  useKeyboardHeight,
 };

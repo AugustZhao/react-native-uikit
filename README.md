@@ -33,6 +33,23 @@ const Demo = () => {
 };
 ```
 
+```js
+import { useAppState, useKeyboardHeight } from 'react-native-uikits';
+
+// ...
+
+const Demo = () => {
+
+  useAppState(appState => {
+    console.log(appState)
+  })
+
+  const keyboardHeight = useKeyboardHeight();
+
+  return <></>;
+};
+```
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
